@@ -11,7 +11,7 @@ Stop-Process -Id NUMERO_PORT -Force
 Rename-Item -Path "C:\Users\Daniel\Desktop\antic.txt" -NewName "nou.txt"
 ```
 
-#### esborra dir
+#### esborra dir:
 ```
 Remove-Item -Path "C:\Users\Daniel\Desktop\Directori" -Recurse
 ```
