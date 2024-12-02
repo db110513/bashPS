@@ -1,3 +1,1 @@
-# bashPS
-
-Repositoei amb ordres importants a bash i power shell
+### Repositori amb ordres importants a bash i power shell
