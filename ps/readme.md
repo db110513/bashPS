@@ -15,3 +15,8 @@ Rename-Item -Path "C:\Users\Daniel\Desktop\antic.txt" -NewName "nou.txt"
 ```
 Remove-Item -Path "C:\Users\Daniel\Desktop\Directori" -Recurse
 ```
+
+#### Memòria RAM (GB):
+```
+(Get-CimInstance Win32_PhysicalMemory | Measure-Object -Property Capacity -Sum).Sum / 1GB
+```
